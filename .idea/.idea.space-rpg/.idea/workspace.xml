@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fefc2631-f108-4d65-8b96-adaff51fc100" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/MainInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/MainInitializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/ControlModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/ControlModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Interfaces/IShipControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Interfaces/IShipControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Mono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Mono/PlayerControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Mono/PlayerControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs/SpaceshipsConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Factories.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Factories/SpaceshipFactoryAndStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Factories/SpaceshipFactoryAndStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono/Spaceship.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Processors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Processors/SpaceshipController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Processors/SpaceshipController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Startup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Executor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Executor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IAwake.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IAwake.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IFixedUpdate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IFixedUpdate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/ILateUpdate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/ILateUpdate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IUpdate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IUpdate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Spaceship.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Spaceship.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8c3be8e73bc04bae8ca5637ac1d3fb8f176400/ae/f4fc322b/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.11.2/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.11/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2oRfcNjbx3RKwPCbZbAmsHb7pHw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/evgeniyskvortsov/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/evgeniyskvortsov/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/evgeniyskvortsov/.local/share/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fefc2631-f108-4d65-8b96-adaff51fc100" name="Changes" comment="" />
+      <created>1730837388216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730837388216</updated>
+      <workItem from="1730837390681" duration="4052000" />
+      <workItem from="1732562524466" duration="3913000" />
+      <workItem from="1732566456132" duration="10153000" />
+      <workItem from="1732604349002" duration="264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
