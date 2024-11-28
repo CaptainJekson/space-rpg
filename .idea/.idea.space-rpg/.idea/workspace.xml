@@ -2,61 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefc2631-f108-4d65-8b96-adaff51fc100" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/MainInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/MainInitializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/ControlModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/ControlModule.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Interfaces/IShipControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Interfaces/IShipControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Mono.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Mono/PlayerControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Mono/PlayerControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs/SpaceshipsConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Factories.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Factories/SpaceshipFactoryAndStorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Factories/SpaceshipFactoryAndStorage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono/Spaceship.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Processors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Processors/SpaceshipController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Processors/SpaceshipController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Startup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Executor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Executor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IAwake.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IAwake.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IFixedUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IFixedUpdate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/ILateUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/ILateUpdate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Interfaces/IUpdate.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Spaceship.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Spaceship.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule/Mono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule/Mono/VirtualCameraRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule/Mono/VirtualCameraRoot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono/UiRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono/UiRoot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.space-rpg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.space-rpg/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono/Spaceship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono/Spaceship.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShip.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShip.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShipOld.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShipOld.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Startup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Startup.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +114,7 @@
       <workItem from="1732562524466" duration="3913000" />
       <workItem from="1732566456132" duration="10153000" />
       <workItem from="1732604349002" duration="264000" />
+      <workItem from="1732795334804" duration="5258000" />
     </task>
     <servers />
   </component>

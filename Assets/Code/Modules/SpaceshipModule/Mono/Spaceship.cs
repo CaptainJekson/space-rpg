@@ -1,11 +1,13 @@
 using Code.Modules.ControlModule.Interfaces;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Code.Modules.SpaceshipModule.Mono
 {
     public class Spaceship : MonoBehaviour
     {
         [SerializeField] public Rigidbody Rigidbody;
+        [SerializeField] public Transform CameraTarget;
 
         [Header("Movement")] 
         [SerializeField] public float YawTorque;

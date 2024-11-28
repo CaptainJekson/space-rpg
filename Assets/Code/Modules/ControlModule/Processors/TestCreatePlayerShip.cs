@@ -1,3 +1,4 @@
+using Code.Modules.CameraModule.Mono;
 using Code.Modules.ControlModule.Mono;
 using Code.Modules.SpaceshipModule.Enums;
 using Code.Modules.SpaceshipModule.Factories;
@@ -7,16 +8,11 @@ using UnityEngine;
 
 namespace Code.Modules.ControlModule.Processors
 {
-    public class TestCreatePlayerShip : IAwake, IUpdate
+    public class TestCreatePlayerShip : IUpdate
     {
         [Inject] private PlayerControl _playerControl;
         [Inject] private SpaceshipFactoryAndStorage _spaceshipFactory;
-
-        public void OnAwake()
-        {
-            var spaceshipInstance = _spaceshipFactory.Create(SpaceshipModel.CobraMk5, Vector3.zero, Vector3.zero);
-            spaceshipInstance.BindControl(_playerControl);
-        }
+        [Inject] private VirtualCameraRoot _virtualCameraRoot;
 
         public void OnUpdate()
         {
@@ -24,6 +20,7 @@ namespace Code.Modules.ControlModule.Processors
             {
                 var spaceshipInstance = _spaceshipFactory.Create(SpaceshipModel.CobraMk5, Vector3.zero, new Vector3(0, 15, 0));
                 spaceshipInstance.BindControl(_playerControl);
+                _virtualCameraRoot.SpaceShipCamera.Follow = spaceshipInstance.CameraTarget;
             }
         }
     }
