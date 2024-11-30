@@ -18,7 +18,7 @@ namespace Code.Modules.ControlModule.Processors
         {
             if (Input.GetKeyDown(KeyCode.C))
             {
-                var spaceshipInstance = _spaceshipFactory.Create(SpaceshipModel.CobraMk5, Vector3.zero, new Vector3(0, 15, 0));
+                var spaceshipInstance = _spaceshipFactory.Create(SpaceshipModel.ExodusRider, Vector3.zero, new Vector3(0, 15, 0));
                 spaceshipInstance.BindControl(_playerControl);
                 _virtualCameraRoot.SpaceShipCamera.Follow = spaceshipInstance.CameraTarget;
             }

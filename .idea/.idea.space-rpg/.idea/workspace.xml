@@ -2,31 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefc2631-f108-4d65-8b96-adaff51fc100" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule/Mono.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule/Mono/VirtualCameraRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/CameraModule/Mono/VirtualCameraRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono/UiRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono/UiRoot.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.space-rpg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.space-rpg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono/Spaceship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Mono/Spaceship.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/ControlBinderTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/SpaceshipController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Old/TestUpdate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/SpaceshipModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShip.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShip.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShipOld.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShipOld.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Startup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Startup.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs/SpaceshipsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs/SpaceshipsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Configs/Spaceships/SpaceShipsConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Configs/Spaceships/SpaceShipsConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1_trail.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1_trail.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_diff.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_diff.JPG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_emit.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_emit.JPG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_nor.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_nor.JPG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_spec.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_spec.JPG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/sp_1.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/sp_1.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/SpaceShip.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/SpaceShip.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpaceShipDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpaceShipDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/SpaceShipInons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/SpaceShipInons/cobra_mk5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/SpaceShipInons/cobra_mk5.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +117,7 @@
       <workItem from="1732566456132" duration="10153000" />
       <workItem from="1732604349002" duration="264000" />
       <workItem from="1732795334804" duration="5258000" />
+      <workItem from="1733002670557" duration="1361000" />
     </task>
     <servers />
   </component>

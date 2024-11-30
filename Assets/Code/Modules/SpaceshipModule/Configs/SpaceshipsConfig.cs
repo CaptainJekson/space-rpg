@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Code.Modules.SpaceshipModule.Enums;
 using Code.Modules.SpaceshipModule.Mono;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Code.Modules.SpaceshipModule.Configs
 {
@@ -20,7 +21,7 @@ namespace Code.Modules.SpaceshipModule.Configs
                     continue;
                 }
                 
-                return spaceShipData.Template;
+                return spaceShipData.SpaceshipPrefab;
             }
 
             return null;
@@ -31,6 +32,9 @@ namespace Code.Modules.SpaceshipModule.Configs
     public class SpaceShipData
     {
         public SpaceshipModel Model;
-        public Spaceship Template;
+        public Sprite Icon;
+        public string Name;
+        public string Description;
+        public Spaceship SpaceshipPrefab;
     }
 }
