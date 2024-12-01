@@ -23,17 +23,17 @@ MonoBehaviour:
     Icon: {fileID: 21300000, guid: 89ce79a386b234e54b5adbd16bc3a69f, type: 3}
     Name: Stellar Dropship
     Description: Stellar Dropship
-    SpaceshipPrefab: {fileID: 1525915420211458708, guid: e8fab73e16e374884a12f860cdc6e7f2,
+    SpaceshipPrefab: {fileID: 84647758866618989, guid: 12f770382624f4d1ebace2c7e561dc84,
       type: 3}
   - Model: 2
     Icon: {fileID: 21300000, guid: 908e2d5cec97340c4880d213db2b88e4, type: 3}
     Name: Nebula Explorer
     Description: Nebula Explorer
-    SpaceshipPrefab: {fileID: 1525915420211458708, guid: e8fab73e16e374884a12f860cdc6e7f2,
+    SpaceshipPrefab: {fileID: 8177810741564094389, guid: 08d23afd1d40e43d48fa3018845ffb5c,
       type: 3}
   - Model: 3
     Icon: {fileID: 21300000, guid: ecb4b02c9f534456283af9117be0000a, type: 3}
     Name: Vortex Corvette
     Description: Vortex Corvette
-    SpaceshipPrefab: {fileID: 1525915420211458708, guid: e8fab73e16e374884a12f860cdc6e7f2,
+    SpaceshipPrefab: {fileID: 1929902221754882079, guid: 08c4400f42c7342e688b5f6007bb1c5a,
       type: 3}

@@ -411,6 +411,7 @@ GameObject:
   - component: {fileID: 6622351915877001957}
   - component: {fileID: 84647758866618989}
   - component: {fileID: 8444327730529273290}
+  - component: {fileID: 2494167687323985012}
   m_Layer: 0
   m_Name: StellarDropship
   m_TagString: Untagged
@@ -546,9 +547,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5025671706740043923}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 1000
+  m_Drag: 0.5
+  m_AngularDrag: 0.5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -565,6 +566,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2494167687323985012
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5025671706740043923}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.7280183, y: 4.6583323, z: 13.492261}
+  m_Center: {x: 0, y: 2.6716554, z: -6.391365e-15}
 --- !u!1 &5353110373442557870
 GameObject:
   m_ObjectHideFlags: 0

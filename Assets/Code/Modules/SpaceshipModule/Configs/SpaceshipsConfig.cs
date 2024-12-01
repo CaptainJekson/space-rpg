@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using Code.Modules.SpaceshipModule.Enums;
 using Code.Modules.SpaceshipModule.Mono;
 using UnityEngine;
@@ -9,9 +8,9 @@ namespace Code.Modules.SpaceshipModule.Configs
     [CreateAssetMenu(menuName = "Spaceships/SpaceShipsConfig", fileName = "SpaceShipsConfig")]
     public class SpaceshipsConfig : ScriptableObject
     {
-        [SerializeField] private List<SpaceShipData> _spaceShips;
+        [SerializeField] private SpaceShipData[] _spaceShips;
 
-        public List<SpaceShipData> SpaceShips => _spaceShips;
+        public SpaceShipData[] SpaceShips => _spaceShips;
 
         public Spaceship GetSpaceShipByModel(SpaceshipModel model)
         {

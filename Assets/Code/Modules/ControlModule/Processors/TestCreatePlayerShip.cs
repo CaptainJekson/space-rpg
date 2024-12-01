@@ -5,6 +5,7 @@ using Code.Modules.SpaceshipModule.Factories;
 using Plugins.Injection;
 using Plugins.Injection.Interfaces;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Code.Modules.ControlModule.Processors
 {

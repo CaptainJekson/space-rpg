@@ -6,7 +6,7 @@ namespace Code.Modules.SpaceshipModule
 {
     public static class SpaceshipModule
     {
-        public static void AddStorages(EasyDi container)
+        public static void AddService(EasyDi container)
         {
             container.NewAndRegister<SpaceshipFactoryAndStorage>();
         }

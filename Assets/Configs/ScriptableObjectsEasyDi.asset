@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: ScriptableObjectsEasyDi
   m_EditorClassIdentifier: 
   _serializedRegistrations:
+  - {fileID: 11400000, guid: 789abf9f1cecf4e4aaa9eaeffbc3742e, type: 2}
+  - {fileID: 11400000, guid: cf217771b834a4b0faf40149c5e74532, type: 2}
   - {fileID: 11400000, guid: ae27be308cf1541af8ba5afbcaca9027, type: 2}
   - {fileID: 11400000, guid: 46400579696a14f938be8785d67008bd, type: 2}
   - {fileID: 11400000, guid: 6ec264f85629c4552820be6e9e9ebd42, type: 2}
