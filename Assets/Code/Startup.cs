@@ -1,6 +1,7 @@
 using Code.Modules.CameraModule.Mono;
 using Code.Modules.ControlModule.Mono;
-using Code.Modules.UiModule.Mono;
+using Code.Modules.UiBaseModule.Mono;
+using Code.Modules.UiModules.MainMenuModule.Mono;
 using Plugins.Injection;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ namespace Code
         [SerializeField] private PlayerControl _playerControl;
         [SerializeField] private VirtualCameraRoot _cameraRoot;
         [SerializeField] private UiRoot _uiRoot;
+        [SerializeField] private MainMenuWindow _mainMenuWindow;
 
         [SerializeField] private ScriptableObjectsEasyDi _configs;
         
@@ -24,6 +26,7 @@ namespace Code
             _container.Register(_cameraRoot);
             _container.Register(_uiRoot);
             _container.Register(_playerControl);
+            _container.Register(_mainMenuWindow);
             
             MainInitializer.Initialize(_container);
         }

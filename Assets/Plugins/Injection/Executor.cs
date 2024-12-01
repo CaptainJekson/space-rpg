@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Plugins.Injection.Interfaces;
 using UnityEngine;

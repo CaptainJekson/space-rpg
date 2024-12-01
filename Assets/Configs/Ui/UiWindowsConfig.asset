@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bded4994fa34e8bbac6622a8cda1642, type: 3}
+  m_Name: UiWindowsConfig
+  m_EditorClassIdentifier: 
+  MainMenu: {fileID: 0}
+  SpaceshipSelect: {fileID: 6047790399320655668, guid: 97c1a211bc669437c8d550756f1cae9f,
+    type: 3}

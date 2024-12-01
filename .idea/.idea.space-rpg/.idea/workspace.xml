@@ -2,33 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fefc2631-f108-4d65-8b96-adaff51fc100" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Configs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Configs/UiHudConfigs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Configs/UiHudConfigs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Configs/UiPopupsConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Configs/UiPopupsConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Configs/UiWindowsConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Configs/UiWindowsConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Enums.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Enums/UiAnimationDirectionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Enums/UiAnimationDirectionType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Enums/UiAnimationType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Enums/UiAnimationType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Enums/UiCanvasType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Enums/UiCanvasType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Mono/UiAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Mono/UiAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Mono/UiElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Mono/UiElement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Mono/UiRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/MainMenuWindowModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/MainMenuWindowModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/Mono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/Mono/MainMenuWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/Mono/MainMenuWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/Processors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/Processors/MainMenuWindowController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/MainMenuModule/Processors/MainMenuWindowController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Mono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Mono/SelectedSpaceshipWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Mono/SelectedSpaceshipWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Mono/SpaceShipUiItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Mono/SpaceShipUiItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Processors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Processors/SelectedSpaceshipWindowButtonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Processors/SelectedSpaceshipWindowButtonController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Processors/SelectedSpaceshipWindowItemsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/Processors/SelectedSpaceshipWindowItemsController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/SelectedSpaceshipWindowModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiModules/SelectedSpaceshipWindowModule/SelectedSpaceshipWindowModule.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.space-rpg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.space-rpg/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/ControlModule/Processors/TestCreatePlayerShip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/StellarDropship/DeployLanding.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/StellarDropship/DeployLanding.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/StellarDropship/RetractLanding.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/StellarDropship/RetractLanding.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asteroids Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/MainInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/MainInitializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs/SpaceshipsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Configs/SpaceshipsConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/SpaceshipModule/Enums/SpaceshipModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/UiModule.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Mono.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono/UiRoot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Modules/UiModule/Mono/UiRoot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Modules/UiBaseModule/Mono/UiRoot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Configs/ScriptableObjectsEasyDi.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Configs/ScriptableObjectsEasyDi.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Configs/Spaceships/SpaceShipsConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Configs/Spaceships/SpaceShipsConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1_trail.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Materials/sp_1_trail.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_diff.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_diff.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_emit.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_emit.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_nor.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_nor.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_spec.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Textures/sp_1_spec.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/sp_1.blend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/sp_1.blend.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/SpaceShip.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/SpaceShip.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpaceShipDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpaceShipDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/SpaceShipInons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/SpaceShipInons/cobra_mk5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/SpaceShipInons/cobra_mk5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Asteroids/Materials/large_asteroid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Asteroids/Materials/large_asteroid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Asteroids/Materials/small_asteroid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Asteroids/Materials/small_asteroid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Injection/Executor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Injection/Executor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/NebulaExplorer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/NebulaExplorer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/StellarDropship.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/StellarDropship.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/VortexCorvette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SpaceShips/VortexCorvette.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Items/SpaceShipItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Items/SpaceShipItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Windows/MainMenuWindow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Windows/MainMenuWindow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Windows/SelectSpaceShipWindow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Windows/SelectSpaceShipWindow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpaceShipDemo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpaceShipDemo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Startup.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Startup.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +81,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8c3be8e73bc04bae8ca5637ac1d3fb8f176400/16/cb308fa0/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8c3be8e73bc04bae8ca5637ac1d3fb8f176400/ae/f4fc322b/NativeArray`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.11.2/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
@@ -44,6 +90,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2oRfcNjbx3RKwPCbZbAmsHb7pHw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -117,13 +164,16 @@
       <workItem from="1732566456132" duration="10153000" />
       <workItem from="1732604349002" duration="264000" />
       <workItem from="1732795334804" duration="5258000" />
-      <workItem from="1733002670557" duration="1361000" />
+      <workItem from="1733002670557" duration="1362000" />
+      <workItem from="1733071393397" duration="350000" />
+      <workItem from="1733071751631" duration="10171000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">

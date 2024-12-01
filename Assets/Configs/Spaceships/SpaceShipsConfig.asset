@@ -20,13 +20,13 @@ MonoBehaviour:
     SpaceshipPrefab: {fileID: 1525915420211458708, guid: e8fab73e16e374884a12f860cdc6e7f2,
       type: 3}
   - Model: 1
-    Icon: {fileID: 21300000, guid: dbe369ea7448344b5b730cabc356d1dd, type: 3}
-    Name: Exodus Rider
-    Description: Exodus Rider
+    Icon: {fileID: 21300000, guid: 89ce79a386b234e54b5adbd16bc3a69f, type: 3}
+    Name: Stellar Dropship
+    Description: Stellar Dropship
     SpaceshipPrefab: {fileID: 1525915420211458708, guid: e8fab73e16e374884a12f860cdc6e7f2,
       type: 3}
   - Model: 2
-    Icon: {fileID: 21300000, guid: dbe369ea7448344b5b730cabc356d1dd, type: 3}
+    Icon: {fileID: 21300000, guid: 908e2d5cec97340c4880d213db2b88e4, type: 3}
     Name: Nebula Explorer
     Description: Nebula Explorer
     SpaceshipPrefab: {fileID: 1525915420211458708, guid: e8fab73e16e374884a12f860cdc6e7f2,

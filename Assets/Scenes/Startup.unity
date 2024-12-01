@@ -827,7 +827,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerControl: {fileID: 1923955999}
   _cameraRoot: {fileID: 1762716197}
-  _uiRoot: {fileID: 0}
+  _uiRoot: {fileID: 1762652731}
+  _mainMenuWindow: {fileID: 1102207831}
   _configs: {fileID: 11400000, guid: d41000747fbd949b5ab392d2d2939f5a, type: 2}
 --- !u!4 &924036127
 Transform:
@@ -854,6 +855,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a69eca6aa452e49daaaae2dd022c5229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1102207831 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1189380092667120809, guid: 36668305aae9b4305948fd4ec80d4606,
+    type: 3}
+  m_PrefabInstance: {fileID: 6940213936353857677}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab218bb57bf54b28a206ab9c597f1a22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1563536774
@@ -1118,6 +1131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1762652730}
+  - component: {fileID: 1762652731}
   m_Layer: 0
   m_Name: RootUI
   m_TagString: Untagged
@@ -1144,6 +1158,21 @@ Transform:
   - {fileID: 1563536775}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1762652731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762652729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5023d1ad96cb484c989137e8b1b0d290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hud: {fileID: 1935710876}
+  _windows: {fileID: 1701327414}
+  _popups: {fileID: 511905158}
 --- !u!1 &1762716196
 GameObject:
   m_ObjectHideFlags: 0
