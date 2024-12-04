@@ -1,5 +1,7 @@
+using System;
 using Cinemachine;
 using Code.Modules.ControlModule.Interfaces;
+using Code.Modules.SpaceshipModule.Enums;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -20,6 +22,9 @@ namespace Code.Modules.SpaceshipModule.Mono
         [SerializeField] [Range(0.001f, 0.999f)] public float ThrustGlideReduction;
         [SerializeField] [Range(0.001f, 0.999f)] public float UpDownGlideReduction;
         [SerializeField] [Range(0.001f, 0.999f)] public float LeftRightGlideReduction;
+
+        [Header("Weapon cells")] 
+        [SerializeField] public SpaceShipWeaponCellsGroup[] SpaceShipWeaponCellsGroups;
         
         [HideInInspector] public float Glide;
         [HideInInspector] public float VerticalGlide;
@@ -41,5 +46,12 @@ namespace Code.Modules.SpaceshipModule.Mono
         {
             camera.Follow = CameraTarget;
         }
+    }
+
+    [Serializable]
+    public class SpaceShipWeaponCellsGroup
+    {
+        public Transform[] PointCell;
+        public SpaceshipWeaponCellType Type;
     }
 }
