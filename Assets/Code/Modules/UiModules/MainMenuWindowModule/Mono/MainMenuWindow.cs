@@ -2,7 +2,7 @@ using Code.Modules.UiBaseModule.Mono;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Code.Modules.UiModules.MainMenuModule.Mono
+namespace Code.Modules.UiModules.MainMenuWindowModule.Mono
 {
     public class MainMenuWindow : UiElement
     {

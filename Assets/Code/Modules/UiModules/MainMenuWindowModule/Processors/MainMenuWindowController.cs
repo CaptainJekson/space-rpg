@@ -1,12 +1,12 @@
 using Code.Modules.UiBaseModule.Configs;
 using Code.Modules.UiBaseModule.Enums;
 using Code.Modules.UiBaseModule.Mono;
-using Code.Modules.UiModules.MainMenuModule.Mono;
+using Code.Modules.UiModules.MainMenuWindowModule.Mono;
 using Code.Modules.UiModules.SelectedSpaceshipWindowModule.Mono;
 using Plugins.Injection;
 using Plugins.Injection.Interfaces;
 
-namespace Code.Modules.UiModules.MainMenuModule.Processors
+namespace Code.Modules.UiModules.MainMenuWindowModule.Processors
 {
     public class MainMenuWindowController : IAwake
     {

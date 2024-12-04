@@ -1,7 +1,7 @@
 using Code.Modules.ControlModule;
 using Code.Modules.SpaceshipModule;
 using Code.Modules.StarSystemsModule;
-using Code.Modules.UiModules.MainMenuModule;
+using Code.Modules.UiModules.MainMenuWindowModule;
 using Code.Modules.UiModules.SelectedSpaceshipWindowModule;
 using Plugins.Injection;
 

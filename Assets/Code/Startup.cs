@@ -1,7 +1,7 @@
 using Code.Modules.CameraModule.Mono;
 using Code.Modules.ControlModule.Mono;
 using Code.Modules.UiBaseModule.Mono;
-using Code.Modules.UiModules.MainMenuModule.Mono;
+using Code.Modules.UiModules.MainMenuWindowModule.Mono;
 using Plugins.Injection;
 using UnityEngine;
 

@@ -1,7 +1,7 @@
-using Code.Modules.UiModules.MainMenuModule.Processors;
+using Code.Modules.UiModules.MainMenuWindowModule.Processors;
 using Plugins.Injection;
 
-namespace Code.Modules.UiModules.MainMenuModule
+namespace Code.Modules.UiModules.MainMenuWindowModule
 {
     public static class MainMenuWindowModule
     {
