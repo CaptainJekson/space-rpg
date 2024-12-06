@@ -2,8 +2,8 @@ using Code.Modules.CameraModule.Mono;
 using Code.Modules.ControlModule.Mono;
 using Code.Modules.PlayerModule.Configs;
 using Code.Modules.SpaceshipModule.Enums;
-using Code.Modules.SpaceshipModule.Factories;
 using Code.Modules.SpaceshipModule.Mono;
+using Code.Modules.SpaceshipModule.Processors;
 using Code.Modules.StarSystemsModule.Configs;
 using Code.Modules.StarSystemsModule.Processors;
 using Code.Modules.UiBaseModule.Mono;
@@ -24,6 +24,7 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Processors
         [Inject] private StarSystemsConfig _starSystemsConfig;
         [Inject] private PlayerControl _playerControl;
         [Inject] private VirtualCameraRoot _virtualCameraRoot;
+        [Inject] private SpaceshipEquipmentInstallerAndStorage _spaceshipEquipmentInstallerAndStorage;
 
         private SelectedSpaceshipWindow _selectedSpaceshipWindow;
 
@@ -46,34 +47,37 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Processors
             _uiRoot.Close<SelectedSpaceshipWindow>();
         }
 
-        private void OnStartGameButtonClick()
+        private void OnStartGameButtonClick() //todo test
         {
             var starSystemType = _playerStartData.StartStarSystem;
             
             _starSystemLoader.Load(starSystemType, () =>
             {
-                var spaceShipModel = _selectedSpaceshipWindow.SelectedSpaceShip;
+                var spaceShipModel = _selectedSpaceshipWindow.SelectedSpaceshipModelId;
                 var spaceshipInstance = _spaceshipFactory.Create(spaceShipModel, _playerStartData.StartShipPosition,
                     _playerStartData.StartShipRotation);
 
                 spaceshipInstance.BindControl(_playerControl);
                 spaceshipInstance.BindCamera(_virtualCameraRoot.SpaceShipCamera);
+                
+                _spaceshipEquipmentInstallerAndStorage.InstallExternalToPlayerShip("RocketGradLevel5", 0);
+                _spaceshipEquipmentInstallerAndStorage.InstallExternalToPlayerShip("PlasmaGunLevel5", 1);
+                _spaceshipEquipmentInstallerAndStorage.InstallExternalToPlayerShip("TurretMinigunLevel5", 2);
 
                 _spaceship1 = spaceshipInstance;
                 _uiRoot.Close<MainMenuWindow>();
                 _uiRoot.Close<SelectedSpaceshipWindow>();
                 
-                //bot test ships
-                _spaceship2 = _spaceshipFactory.Create(SpaceshipModel.VortexCorvette, new Vector3(52f, 51f, 65.6f),
+                //two test ships
+                _spaceship2 = _spaceshipFactory.Create("VortexCorvette", new Vector3(52f, 51f, 65.6f),
                     Vector3.zero);
-                
             });
         }
 
         private Spaceship _spaceship1;
         private Spaceship _spaceship2;
 
-        public void OnUpdate() //todo for test
+        public void OnUpdate() //todo for test: switch ship
         {
             if (Input.GetKeyDown(KeyCode.Y))
             {

@@ -5,7 +5,7 @@ namespace Code.Modules.StarSystemsModule
 {
     public static class StarSystemsModule
     {
-        public static void AddService(EasyDi container)
+        public static void Add(EasyDi container)
         {
             container.NewAndRegister<StarSystemLoader>();
         }

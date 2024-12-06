@@ -8,5 +8,6 @@ namespace Code.Modules.SpaceshipModule.Enums
         TurretSmall = 3,
         TurretMedium = 4,
         TurretBig = 5,
+        Equipment = 6,
     }
 }

@@ -14,6 +14,6 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Mono
         [SerializeField] public Transform SpaceShipUiItemParent;
         [SerializeField] public ToggleGroup ToggleGroup;
 
-        [HideInInspector] public SpaceshipModel SelectedSpaceShip;
+        [HideInInspector] public string SelectedSpaceshipModelId;
     }
 }

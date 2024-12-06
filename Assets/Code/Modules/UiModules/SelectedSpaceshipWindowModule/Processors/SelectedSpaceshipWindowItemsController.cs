@@ -35,7 +35,7 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Processors
                 itemInstance.Icon.sprite = spaceShipData.Icon;
                 itemInstance.NameText.text = spaceShipData.Name;
                 itemInstance.Toggle.group = _selectedSpaceshipWindow.ToggleGroup;
-                itemInstance.SpaceshipModel = spaceShipData.Model;
+                itemInstance.SpaceshipModelId = spaceShipData.ModelId;
                 
                 itemInstance.Toggle.onValueChanged.AddListener(isOn =>
                 {
@@ -44,7 +44,7 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Processors
                         return;
                     }
 
-                    _selectedSpaceshipWindow.SelectedSpaceShip = spaceShipData.Model;
+                    _selectedSpaceshipWindow.SelectedSpaceshipModelId = spaceShipData.ModelId;
                 });
             }
         }

@@ -24,13 +24,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6579163711549641428}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2722802, y: 0, z: 0, w: 0.96221805}
-  m_LocalPosition: {x: 0, y: 20.2, z: -77.6}
+  m_LocalRotation: {x: 0.026176924, y: 0, z: 0, w: 0.99965733}
+  m_LocalPosition: {x: -0, y: 26.91, z: -94.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5078959857803152864}
-  m_LocalEulerAnglesHint: {x: 31.6, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3, y: 0, z: 0}
 --- !u!1 &7921532120256039916
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,15 +132,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Rigidbody: {fileID: 7227715489780373324}
   CameraTarget: {fileID: 5166769078020851578}
-  YawTorque: 100000
-  PitchTorque: 200000
-  RollTorque: 7000
+  YawTorque: 250000
+  PitchTorque: 250000
+  RollTorque: 100000
   Thrust: 200000
-  UpThrust: 50000
-  StrafeThrust: 50000
+  UpThrust: 100000
+  StrafeThrust: 100000
   ThrustGlideReduction: 0.5
   UpDownGlideReduction: 0.111
   LeftRightGlideReduction: 0.111
+  SpaceShipWeaponCellsGroups: []
   Glide: 0
   VerticalGlide: 0
   HorizontalGlide: 0

@@ -11,10 +11,7 @@ namespace Code
     {
         public static void Initialize(EasyDi container)
         {
-            StarSystemsModule.AddService(container);
-            SpaceshipModule.AddService(container);
-            
-            ControlModule.Add(container);
+            StarSystemsModule.Add(container);
             SpaceshipModule.Add(container);
             
             //Ui

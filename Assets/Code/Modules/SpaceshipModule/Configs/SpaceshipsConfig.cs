@@ -12,11 +12,11 @@ namespace Code.Modules.SpaceshipModule.Configs
 
         public SpaceShipData[] SpaceShips => _spaceShips;
 
-        public Spaceship GetSpaceShipByModel(SpaceshipModel model)
+        public Spaceship GetSpaceShipByModel(string modelId)
         {
             foreach (var spaceShipData in _spaceShips)
             {
-                if (spaceShipData.Model != model)
+                if (spaceShipData.ModelId != modelId)
                 {
                     continue;
                 }
@@ -31,7 +31,7 @@ namespace Code.Modules.SpaceshipModule.Configs
     [Serializable]
     public class SpaceShipData
     {
-        public SpaceshipModel Model;
+        public string ModelId;
         public Sprite Icon;
         public string Name;
         public string Description;

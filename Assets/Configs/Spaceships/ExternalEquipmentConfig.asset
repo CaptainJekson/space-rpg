@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773056023b1743339ffa289b4fe2c863, type: 3}
+  m_Name: ExternalEquipmentConfig
+  m_EditorClassIdentifier: 
+  _externalEquipments:
+  - ModelId: MinigunLevel1
+    Icon: {fileID: 0}
+    Name: Minigun Level 1
+    Description: Minigun Level 1
+    SpaceshipWeaponPrefab: {fileID: -7382292609918932862, guid: c2bc5c44462844eb8b59727e58c56564,
+      type: 3}
+  - ModelId: MinigunLevel2
+    Icon: {fileID: 0}
+    Name: Minigun Level 2
+    Description: Minigun Level 2
+    SpaceshipWeaponPrefab: {fileID: -1096623056488365067, guid: 253be5e6365a942afac001193ba0ecde,
+      type: 3}
+  - ModelId: MinigunLevel3
+    Icon: {fileID: 0}
+    Name: Minigun Level 3
+    Description: Minigun Level 3
+    SpaceshipWeaponPrefab: {fileID: 2715074471589080627, guid: fb7acd9d5004b4dd9b798ebcb0eb7bed,
+      type: 3}
+  - ModelId: MinigunLevel4
+    Icon: {fileID: 0}
+    Name: Minigun Level 4
+    Description: Minigun Level 4
+    SpaceshipWeaponPrefab: {fileID: 3517998778723366567, guid: e5f4d6fdba0374ef49ad897dd284d7f4,
+      type: 3}
+  - ModelId: MinigunLevel5
+    Icon: {fileID: 0}
+    Name: Minigun Level 5
+    Description: Minigun Level 5
+    SpaceshipWeaponPrefab: {fileID: 4585015335919839618, guid: c898cf13e9a4d465d8fd523993438982,
+      type: 3}
+  - ModelId: PlasmaGunLevel1
+    Icon: {fileID: 0}
+    Name: Plasma Gun Level 1
+    Description: Plasma Gun Level 1
+    SpaceshipWeaponPrefab: {fileID: -355798791405725712, guid: 37058c307a48341aa9651b1b9311265e,
+      type: 3}
+  - ModelId: PlasmaGunLevel2
+    Icon: {fileID: 0}
+    Name: Plasma Gun Level 2
+    Description: Plasma Gun Level 2
+    SpaceshipWeaponPrefab: {fileID: -4126060087611831348, guid: 994d0679eef1a4ea19de9b9b7b765a7c,
+      type: 3}
+  - ModelId: PlasmaGunLevel3
+    Icon: {fileID: 0}
+    Name: Plasma Gun Level 3
+    Description: Plasma Gun Level 3
+    SpaceshipWeaponPrefab: {fileID: -4965494929713078380, guid: 024dc1195a6a243f3aaff493f327b976,
+      type: 3}
+  - ModelId: PlasmaGunLevel4
+    Icon: {fileID: 0}
+    Name: Plasma Gun Level 4
+    Description: Plasma Gun Level 4
+    SpaceshipWeaponPrefab: {fileID: -2438317168897863370, guid: 5871db15e055142baa63638abef14813,
+      type: 3}
+  - ModelId: PlasmaGunLevel5
+    Icon: {fileID: 0}
+    Name: Plasma Gun Level 5
+    Description: Plasma Gun Level 5
+    SpaceshipWeaponPrefab: {fileID: 702622369422363889, guid: 2908676943b644e55a6cd17e09c583ac,
+      type: 3}
+  - ModelId: RocketGradLevel1
+    Icon: {fileID: 0}
+    Name: Rocket Grad Level 1
+    Description: Rocket Grad Level 1
+    SpaceshipWeaponPrefab: {fileID: 8184348999969811051, guid: 4dade61ace02f49adb170bc1bde1309d,
+      type: 3}
+  - ModelId: RocketGradLevel2
+    Icon: {fileID: 0}
+    Name: Rocket Grad Level 2
+    Description: Rocket Grad Level 2
+    SpaceshipWeaponPrefab: {fileID: 4012030067006730318, guid: 238be40cbfa4d4c6b82a846240d12bb6,
+      type: 3}
+  - ModelId: RocketGradLevel3
+    Icon: {fileID: 0}
+    Name: Rocket Grad Level 3
+    Description: Rocket Grad Level 3
+    SpaceshipWeaponPrefab: {fileID: 1075783584182527336, guid: 928ae414ef2924b2687fdf186c55a988,
+      type: 3}
+  - ModelId: RocketGradLevel4
+    Icon: {fileID: 0}
+    Name: Rocket Grad Level 4
+    Description: Rocket Grad Level 4
+    SpaceshipWeaponPrefab: {fileID: -3561142819064020383, guid: 0075843a9956f4accbdd19a155b21e03,
+      type: 3}
+  - ModelId: RocketGradLevel5
+    Icon: {fileID: 0}
+    Name: Rocket Grad Level 5
+    Description: Rocket Grad Level 5
+    SpaceshipWeaponPrefab: {fileID: -6781250970201340640, guid: 392b8ce75300b43d2bf5d95798bc9e41,
+      type: 3}
+  - ModelId: TurretMinigunLevel1
+    Icon: {fileID: 0}
+    Name: Turret Minigun Level 1
+    Description: Turret Minigun Level 1
+    SpaceshipWeaponPrefab: {fileID: 1975023592445160989, guid: b5ceca2fab4f06f49aa235f4f428275a,
+      type: 3}
+  - ModelId: TurretMinigunLevel2
+    Icon: {fileID: 0}
+    Name: Turret Minigun Level 2
+    Description: Turret Minigun Level 2
+    SpaceshipWeaponPrefab: {fileID: -2766105314964252150, guid: d9231829d3cedca409477c9327eb6425,
+      type: 3}
+  - ModelId: TurretMinigunLevel3
+    Icon: {fileID: 0}
+    Name: Turret Minigun Level 3
+    Description: Turret Minigun Level 3
+    SpaceshipWeaponPrefab: {fileID: 1407015710715989542, guid: 16e71322676cb6840a252ad4f7fc2d26,
+      type: 3}
+  - ModelId: TurretMinigunLevel4
+    Icon: {fileID: 0}
+    Name: Turret Minigun Level 4
+    Description: Turret Minigun Level 4
+    SpaceshipWeaponPrefab: {fileID: 964608603944727258, guid: 2652172d138981b4abc806ea8ec36564,
+      type: 3}
+  - ModelId: TurretMinigunLevel5
+    Icon: {fileID: 0}
+    Name: Turret Minigun Level 5
+    Description: Turret Minigun Level 5
+    SpaceshipWeaponPrefab: {fileID: -1144961468997877436, guid: ff744fa1e43cd5747a6732d0189a5a52,
+      type: 3}

@@ -11,6 +11,6 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Mono
         [SerializeField] public TextMeshProUGUI NameText;
         [SerializeField] public Image Icon;
 
-        [HideInInspector] public SpaceshipModel SpaceshipModel;
+        [HideInInspector] public string SpaceshipModelId;
     }
 }
