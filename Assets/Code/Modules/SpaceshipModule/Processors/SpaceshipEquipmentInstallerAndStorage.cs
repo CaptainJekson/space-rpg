@@ -50,7 +50,6 @@ namespace Code.Modules.SpaceshipModule.Processors
             foreach (var cellTransform in targetCellsGroup.PointCells)
             {
                 var equipmentInstance = Object.Instantiate(spaceshipExternalEquipment, cellTransform);
-
                 AddOrUpdate(spaceship, equipmentInstance);
             }
         }

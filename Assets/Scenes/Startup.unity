@@ -425,8 +425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6043bde05a7fc4cba197d06915c1e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damping: {x: 0.1, y: 0.5, z: 0.3}
-  ShoulderOffset: {x: 0, y: 0.2, z: 0}
+  Damping: {x: 0, y: 0, z: 0}
+  ShoulderOffset: {x: 0, y: 0, z: 0}
   VerticalArmLength: 0.4
   CameraSide: 1
   CameraDistance: 2
@@ -584,7 +584,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &504464014
 RectTransform:
   m_ObjectHideFlags: 0
@@ -686,13 +686,13 @@ MonoBehaviour:
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
-    ModeOverride: 0
+    ModeOverride: 2
     LensShift: {x: 0, y: 0}
     GateFit: 2
     FocusDistance: 10
     m_SensorSize: {x: 1, y: 1}
   m_Transitions:
-    m_BlendHint: 0
+    m_BlendHint: 1
     m_InheritPosition: 0
     m_OnCameraLive:
       m_PersistentCalls:
@@ -962,7 +962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1457814198
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1106,7 +1106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1701327414
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1493,162 +1493,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915244957}
   m_CullTransparentMesh: 1
---- !u!1 &1923955998
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1923956001}
-  - component: {fileID: 1923956000}
-  - component: {fileID: 1923955999}
-  m_Layer: 0
-  m_Name: PlayerInput
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1923955999
+--- !u!114 &1923955999 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 265842960043010648, guid: c26f8c03b4c494a74a53c632cafe10d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 4352183047206354614}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923955998}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b1f4f3b5c774777b9207fbe20b9afae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1923956000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923955998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7b61eca40a1cb4970b8350b2fc3a4ee7,
-    type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1923955999}
-        m_TargetAssemblyTypeName: Code.ControlModule.PlayerControl, Assembly-CSharp
-        m_MethodName: OnThrust
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 75c8a218-7704-4261-9a07-bc1e30cb3ece
-    m_ActionName: ShipControls/Thrust[/Keyboard/s,/Keyboard/w]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1923955999}
-        m_TargetAssemblyTypeName: Code.ControlModule.PlayerControl, Assembly-CSharp
-        m_MethodName: OnStrafe
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 89a8e579-1e7d-4a88-9106-a9e3511c979e
-    m_ActionName: ShipControls/Strafe[/Keyboard/a,/Keyboard/d]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1923955999}
-        m_TargetAssemblyTypeName: Code.ControlModule.PlayerControl, Assembly-CSharp
-        m_MethodName: OnUpDown
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: db835bc1-8107-4be3-8e6e-da5c8c41d909
-    m_ActionName: ShipControls/UpDown[/Keyboard/ctrl,/Keyboard/space]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1923955999}
-        m_TargetAssemblyTypeName: Code.ControlModule.PlayerControl, Assembly-CSharp
-        m_MethodName: OnRoll
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 40a6b20f-924c-4ed6-910f-2291348b22ac
-    m_ActionName: ShipControls/Roll[/Keyboard/q,/Keyboard/e]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1923955999}
-        m_TargetAssemblyTypeName: Code.ControlModule.PlayerControl, Assembly-CSharp
-        m_MethodName: OnPitchYaw
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 00619923-f341-443b-b885-d7cf7c780155
-    m_ActionName: ShipControls/PitchYaw[/Mouse/delta]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: ShipControls
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!4 &1923956001
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923955998}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -9.23, z: -23.33}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1935710875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,6 +1607,74 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1001 &4352183047206354614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324438890102189787, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4619546287603302514, guid: c26f8c03b4c494a74a53c632cafe10d9,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerInput
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c26f8c03b4c494a74a53c632cafe10d9, type: 3}
 --- !u!1001 &6940213936353857677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1762,42 +1686,42 @@ PrefabInstance:
     - target: {fileID: 1435278165264095076, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1435278165264095076, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1435278165264095076, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 266.7047
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1435278165264095076, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -418.21106
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1498865148403015032, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1498865148403015032, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1498865148403015032, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 266.7047
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1498865148403015032, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -71.92535
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1736423556475792816, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
@@ -1907,22 +1831,22 @@ PrefabInstance:
     - target: {fileID: 7108891296919203768, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7108891296919203768, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7108891296919203768, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 266.7047
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7108891296919203768, guid: 36668305aae9b4305948fd4ec80d4606,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -245.0682
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1937,6 +1861,6 @@ SceneRoots:
   - {fileID: 1762716198}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1923956001}
+  - {fileID: 4352183047206354614}
   - {fileID: 924036127}
   - {fileID: 1762652730}

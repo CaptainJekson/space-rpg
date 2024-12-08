@@ -10,6 +10,8 @@ namespace Code.Modules.SpaceshipModule
             container.NewAndRegister<SpaceshipFactoryAndStorage>();
             container.NewAndRegister<SpaceshipEquipmentInstallerAndStorage>();
             container.New<SpaceshipMovementController>();
+            container.New<SpaceshipCameraRotateController>();
+            container.New<SpaceshipLandingController>();
         }
     }
 }

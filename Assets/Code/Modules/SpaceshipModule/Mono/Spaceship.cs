@@ -9,7 +9,9 @@ namespace Code.Modules.SpaceshipModule.Mono
     public class Spaceship : MonoBehaviour
     {
         [SerializeField] public Rigidbody Rigidbody;
+        [SerializeField] public Animator Animator;
         [SerializeField] public Transform CameraTarget;
+        [SerializeField] public Transform CenterView;
 
         [Header("Movement")] 
         [SerializeField] public float YawTorque;
@@ -28,9 +30,12 @@ namespace Code.Modules.SpaceshipModule.Mono
         [HideInInspector] public float Glide;
         [HideInInspector] public float VerticalGlide;
         [HideInInspector] public float HorizontalGlide;
+        [HideInInspector] public Quaternion CenterViewOriginalRotation;
+        [HideInInspector] public bool IsUpperLanding;
 
         public IShipControl ShipControl;
-        
+        public IShipCameraControl CameraControl;
+
         public void BindControl(IShipControl shipControl)
         {
             ShipControl = shipControl;
@@ -39,11 +44,14 @@ namespace Code.Modules.SpaceshipModule.Mono
         public void UnBindControl()
         {
             ShipControl = null;
+            CameraControl = null;
         }
 
-        public void BindCamera(CinemachineVirtualCamera camera)
+        public void BindCamera(IShipCameraControl cameraControl, CinemachineVirtualCamera camera)
         {
+            CameraControl = cameraControl;
             camera.Follow = CameraTarget;
+            CenterViewOriginalRotation = CenterView.localRotation;
         }
     }
 

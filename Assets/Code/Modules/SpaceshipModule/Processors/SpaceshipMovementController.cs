@@ -1,3 +1,4 @@
+using Code.Modules.CameraModule.Mono;
 using Code.Modules.ControlModule.Interfaces;
 using Code.Modules.SpaceshipModule.Mono;
 using Plugins.Injection;
@@ -9,6 +10,7 @@ namespace Code.Modules.SpaceshipModule.Processors
     public class SpaceshipMovementController : IFixedUpdate
     {
         [Inject] private SpaceshipFactoryAndStorage _spaceshipFactory;
+        [Inject] private VirtualCameraRoot _virtualCameraRoot;
         
         public void OnFixedUpdate()
         {
@@ -18,16 +20,22 @@ namespace Code.Modules.SpaceshipModule.Processors
                 {
                     continue;
                 }
+
+                var shipControl = spaceship.ShipControl;
                 
-                Roll(spaceship.ShipControl, spaceship);
-                Pitch(spaceship.ShipControl, spaceship);
-                Yaw(spaceship.ShipControl, spaceship);
-                Trust(spaceship.ShipControl, spaceship);
-                UpDown(spaceship.ShipControl, spaceship);
-                Strafing(spaceship.ShipControl, spaceship);
+                if (spaceship.CameraControl.CameraView < 1.0f)
+                {
+                    Yaw(shipControl, spaceship);
+                    Pitch(shipControl, spaceship);
+                }
+                
+                Trust(shipControl, spaceship);
+                Roll(shipControl, spaceship);
+                UpDown(shipControl, spaceship);
+                Strafing(shipControl, spaceship);
             }
         }
-        
+
         private void Strafing(IShipControl shipControl, Spaceship spaceship)
         {
             if (shipControl.Strafe1D is > 0.1f or < -0.1f)
@@ -75,7 +83,7 @@ namespace Code.Modules.SpaceshipModule.Processors
             spaceship.Rigidbody.AddRelativeTorque(Vector3.up * (Mathf.Clamp(shipControl.PitchYaw.x, -1f, 1f) 
                                                                 * spaceship.YawTorque * Time.deltaTime));
         }
-
+        
         private void Pitch(IShipControl shipControl, Spaceship spaceship)
         {
             spaceship.Rigidbody.AddRelativeTorque(Vector3.right * (Mathf.Clamp(-shipControl.PitchYaw.y, -1f, 1f) 

@@ -14584,6 +14584,7 @@ GameObject:
   - component: {fileID: 6739046602930916177}
   - component: {fileID: 8714700352112894207}
   - component: {fileID: 5289209702256827597}
+  - component: {fileID: 1904912395959589978}
   m_Layer: 0
   m_Name: Dropship_R35-Landing_Front
   m_TagString: Untagged
@@ -14656,6 +14657,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1904912395959589978
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106601221430216909}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6320913, y: 0.39474759, z: 2.0388544}
+  m_Center: {x: 0, y: -0.14784105, z: -0.15397714}
 --- !u!1 &1217058267121130980
 GameObject:
   m_ObjectHideFlags: 0
@@ -19876,7 +19898,7 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3806355496612092661}
+  - {fileID: 2526085123467940235}
   - {fileID: 2160998629176543868}
   - {fileID: 8500357649059073869}
   - {fileID: 6355093742971290897}
@@ -19978,7 +20000,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rigidbody: {fileID: 8444327730529273290}
+  Animator: {fileID: 6622351915877001957}
   CameraTarget: {fileID: 3806355496612092661}
+  CenterView: {fileID: 2526085123467940235}
   YawTorque: 100000
   PitchTorque: 200000
   RollTorque: 7000
@@ -20002,6 +20026,8 @@ MonoBehaviour:
   Glide: 1.2325952e-27
   VerticalGlide: 0
   HorizontalGlide: -0
+  CenterViewOriginalRotation: {x: 0, y: 0, z: 0, w: 0}
+  IsUpperLanding: 0
 --- !u!54 &8444327730529273290
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20061,6 +20087,7 @@ GameObject:
   - component: {fileID: 2587095112584774162}
   - component: {fileID: 6602054497435579564}
   - component: {fileID: 665950932855516863}
+  - component: {fileID: 2529069044706537247}
   m_Layer: 0
   m_Name: Dropship_R35-Landing-L
   m_TagString: Untagged
@@ -20133,6 +20160,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2529069044706537247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5353110373442557870}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5876356, y: 1.6419455, z: 2.290551}
+  m_Center: {x: 0.04560178, y: -0.57160753, z: 0.72377753}
 --- !u!1 &6358864482007786183
 GameObject:
   m_ObjectHideFlags: 0
@@ -20299,6 +20347,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8191805872178899624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2526085123467940235}
+  m_Layer: 0
+  m_Name: CenterView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2526085123467940235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8191805872178899624}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.8, z: -0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3806355496612092661}
+  m_Father: {fileID: 1209198642399764569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8403948326909347798
 GameObject:
   m_ObjectHideFlags: 0
@@ -20310,6 +20390,7 @@ GameObject:
   - component: {fileID: 6234921581900967132}
   - component: {fileID: 8781628771014258957}
   - component: {fileID: 8422250616317703004}
+  - component: {fileID: 4579414063805889794}
   m_Layer: 0
   m_Name: Dropship_R35-Landing-R
   m_TagString: Untagged
@@ -20382,6 +20463,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4579414063805889794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8403948326909347798}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5876356, y: 1.6419457, z: 2.290551}
+  m_Center: {x: -0.04560178, y: -0.57160765, z: 0.7237814}
 --- !u!1 &8927612235267273209
 GameObject:
   m_ObjectHideFlags: 0
@@ -20406,10 +20508,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8927612235267273209}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.77, z: -11.27}
+  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.970001, z: -10.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1209198642399764569}
+  m_Father: {fileID: 2526085123467940235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

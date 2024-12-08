@@ -58,7 +58,7 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Processors
                     _playerStartData.StartShipRotation);
 
                 spaceshipInstance.BindControl(_playerControl);
-                spaceshipInstance.BindCamera(_virtualCameraRoot.SpaceShipCamera);
+                spaceshipInstance.BindCamera(_playerControl, _virtualCameraRoot.SpaceShipCamera);
                 
                 _spaceshipEquipmentInstallerAndStorage.InstallExternalToPlayerShip("RocketGradLevel5", 0);
                 _spaceshipEquipmentInstallerAndStorage.InstallExternalToPlayerShip("PlasmaGunLevel5", 1);
@@ -68,7 +68,7 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Processors
                 _uiRoot.Close<MainMenuWindow>();
                 _uiRoot.Close<SelectedSpaceshipWindow>();
                 
-                //two test ships
+                //two test ships VortexCorvette StellarDropship
                 _spaceship2 = _spaceshipFactory.Create("VortexCorvette", new Vector3(52f, 51f, 65.6f),
                     Vector3.zero);
             });
@@ -82,14 +82,14 @@ namespace Code.Modules.UiModules.SelectedSpaceshipWindowModule.Processors
             if (Input.GetKeyDown(KeyCode.Y))
             {
                 _spaceship1.BindControl(_playerControl);
-                _spaceship1.BindCamera(_virtualCameraRoot.SpaceShipCamera);
+                _spaceship1.BindCamera(_playerControl, _virtualCameraRoot.SpaceShipCamera);
                 _spaceship2.UnBindControl();
             }
 
             if (Input.GetKeyDown(KeyCode.U))
             {
                 _spaceship2.BindControl(_playerControl);
-                _spaceship2.BindCamera(_virtualCameraRoot.SpaceShipCamera);
+                _spaceship2.BindCamera(_playerControl, _virtualCameraRoot.SpaceShipCamera);
                 _spaceship1.UnBindControl();
             }
         }

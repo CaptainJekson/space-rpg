@@ -9,5 +9,6 @@ namespace Code.Modules.ControlModule.Interfaces
         public float UpDown1D { get; set; }
         public float Roll1D { get; set; }
         public Vector2 PitchYaw { get; set; }
+        public bool LandingGear { get; set; }
     }
 }
